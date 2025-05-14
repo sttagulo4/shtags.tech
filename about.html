@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Tambay Cafe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @media (max-width: 768px) {
+            .companyName{
+                font-size: 40px;
+            }
+
+            .member-card .tablet{
+                flex-direction: column !important;
+            }
+
+            .member-card .text-white{
+                width: 75%;
+            }
+
+            .member-card .left{
+                position: relative;
+                left: 270px;
+                width: 200px
+            }
+
+            .team-member{
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+
+        @media (max-width: 425px) {
+            .companyName{
+                display: none;
+            }
+
+            .logo{
+                width: 75px;
+            }
+
+            .member-card .left{
+                left: 212px;
+            }
+
+            .nav > li{
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 375px) {
+            .member-card .left{
+                left: 90px;
+            }
+        }
+
+        @media (max-width: 320px){
+            .socials a{
+                font-size: 12px;
+            }
+
+            .member-card .left{
+                left: 60px;
+            }
+
+            .about-text{
+                font-size: 12px;
+                text-align: justify;
+            }
+
+            .about-card img{
+                width: 100px;
+            }
+
+            .about-card .px-5{
+                padding: 20px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="home-header">
+        <div class="container-fluid">
+            <div class="row d-flex align-items-center">
+                <div class="col-6 p-3 d-flex align-items-center gap-2">
+                    <img src="images/logo.svg" alt="" width="100px">
+                    <h1 class="companyName">Tambay Café</h1>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <div class="row">
+                        <div class="col-4"><img src="images/magnifying-glass.svg" alt="" width="30px"></div>
+                        <div class="col-4"><img src="images/comment.svg" alt="" width="30px"></div>
+                        <div class="col-4"><img src="images/sun.svg" alt="" width="30px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-white d-flex justify-content-center py-4">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link link-black fw-semibold" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active fw-semibold" aria-current="page" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-black fw-semibold" href="reservation.html">Reservation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-black fw-semibold" href="menu.html">Menu</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-white">
+        <section class="about-card p-3 w-75">
+            <div class="row d-flex justify-content-center">
+                <div class="d-flex flex-column align-items-center px-5">
+                    <img src="images/logo.svg" alt="">
+                    <h1 class="about-title text-center">About Us</h1>
+                    <p class="about-text"><span class="fw-bold">Tambay Café</span> is more than just a coffee shop —
+                        it's your local tambayan, a cozy spot where stories brew as easily as the coffee. We blend
+                        Filipino warmth with rich, flavorful drinks and snacks, creating a welcoming space for students,
+                        friends, and families to hang out, relax, and feel right at home. Whether you're catching up,
+                        winding down, or just passing through, there's always a seat for you at Tambay Café.</p>
+        </section>
+
+        <section class="teams py-3">
+            <h1 class="text-center">Meet the Team 🌟</h1>
+
+            <div class="member-card pt-5">
+                <div class="container d-flex justify-content-between tablet">
+                    <div class="left images">
+                        <img src="images/chair.svg" alt="" class="chair">
+                        <img src="images/Ellipse 9.png" alt="" class="team-member">
+                        <div class="name p-3">
+                            <h3 class="member-name">Ropelos, Angelo V.</h3>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="container bg-black text-white p-3 ">
+                            <h1 class="team-name text-center font-italic">Design Lead</h1>
+                            <p class="team-text">The eye behind our café’s cozy vibe, colors, and logo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="member-card pt-5">
+                <div class="container d-flex justify-content-between tablet">
+                    <div class="left images">
+                        <img src="images/chair.svg" alt="" class="chair">
+                        <img src="images/Ellipse 10.png" alt="" class="team-member">
+                        <div class="name p-3">
+                            <h3 class="member-name">Omnos, Francis O.</h3>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="container bg-black text-white p-3 ">
+                            <h1 class="team-name text-center font-italic">Coding & Development</h1>
+                            <p class="team-text">He builds and codes the digital experience that makes Tambay Café work.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="member-card pt-5">
+                    <div class="container d-flex justify-content-between tablet">
+                        <div class="left images">
+                            <img src="images/chair.svg" alt="" class="chair">
+                            <img src="images/Ellipse 11.png" alt="" class="team-member">
+                            <div class="name p-3">
+                                <h3 class="member-name">Morte, Seemay O.</h3>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="container bg-black text-white p-3 ">
+                                <h1 class="team-name text-center font-italic">Illustrator</h1>
+                                <p class="team-text">Adds heart and personality through hand-drawn artwork and visuals.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="member-card pt-5">
+                    <div class="container d-flex justify-content-between tablet">
+                        <div class="left images">
+                            <img src="images/chair.svg" alt="" class="chair">
+                            <img src="images/Ellipse 12.png" alt="" class="team-member">
+                            <div class="name p-3">
+                                <h3 class="member-name">Tagulo, Shuvi T.</h3>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="container bg-black text-white p-3 ">
+                                <h1 class="team-name text-center font-italic">Wireframe & Support</h1>
+                                <p class="team-text">Maps out how everything flows and supports the whole team.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="member-card pt-5">
+                    <div class="container d-flex justify-content-between tablet">
+                        <div class="left images">
+                            <img src="images/chair.svg" alt="" class="chair">
+                            <img src="images/Ellipse 13.png" alt="" class="team-member">
+                            <div class="name p-3">
+                                <h3 class="member-name">Candel, Gee Rome </h3>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="container bg-black text-white p-3">
+                                <h1 class="team-name text-center font-italic">Wireframe & Support</h1>
+                                <p class="team-text">Collaborates on layout planning and helps ensure a smooth, user-friendly structure.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    <div class="home-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6">
+                    <h3 class="pb-3">Contact Us</h3>
+                    <p class="footer-text"><i class="fa-solid fa-location-dot"></i> Dumaguete City, Negros Oriental,
+                        Philippines</p>
+                    <p class="footer-text"><i class="fa-solid fa-phone"></i> (+63) 0912 345 6789</p>
+                    <p class="footer-text"><i class="fa-solid fa-envelope"></i> tambayan.cafe@tambayan.tech</p><br>
+                    <h5 class="footer-text copyright">&copy; 2025 Tambay Café. All Rights Reserved</h5>
+                </div>
+                <div class="col-6">
+                    <h3>Social Media</h3>
+                    <div class="socials d-flex flex-column gap-2">
+                        <a href="#" class="link-black"><i class="fa-brands fa-facebook"></i> TambayCafe</a>
+                        <a href="#" class="link-black"><i class="fa-brands fa-instagram"></i> @tambay_cafe</a>
+                        <a href="#" class="link-black"><i class="fa-brands fa-twitter"></i> @OfficialTambayCafe</a>
+                        <a href="#" class="link-black"><i class="fa-brands fa-tiktok"></i> @TambayCafe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
